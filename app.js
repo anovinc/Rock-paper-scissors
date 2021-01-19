@@ -41,8 +41,6 @@ function win(userChoice,computer){
     userScore_span.innerHTML=userScore;
     compScore_span.innerHTML=compScore;
     result_div.innerHTML= wordConvert(userChoice) +" beats "+ wordConvert(computer)+". You win! 💪";
-
-   
 }
 
 function lose(userChoice,computer){
